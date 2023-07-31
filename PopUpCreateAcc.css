@@ -1,0 +1,163 @@
+.AlertCreateAcc {
+  position: absolute;
+  z-index: 9999;
+  margin-left: 10px;
+  margin-right: 330px;
+  margin-top: -220px;
+  background-color: #0f133a;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.AlertCreateAcc p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  padding-left: -10px;
+  margin-right: 10px;
+  padding-top: 30px;
+  margin-bottom: -90px;
+}
+.AlertEmail {
+  position: absolute;
+  z-index: 9999;
+}
+.AlertEmail p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-top: 20px;
+  color: #fff;
+  padding-left: 600px;
+}
+.AlertEmail2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  padding-top: 30px;
+  color: #fff;
+  padding-left: 630px;
+}
+.NextAlert {
+  position: absolute;
+  z-index: 9999;
+  margin-top: -90px;
+}
+
+.CreateAlert a {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #017ca3;
+  display: inline-block;
+  color: white;
+  position: absolute;
+  z-index: 9999;
+  font-size: 0.8rem;
+  margin-top: -5px;
+  margin-left: 450px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.BackAlert a {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #0f133a;
+  font-size: 0.8rem;
+  position: absolute;
+  z-index: 9999;
+  margin-left: 260px;
+  margin-top: -5px;
+  margin-bottom: 50px;
+  margin-right: 290px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.PopUpform-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+}
+
+.PopUpform-grid__left {
+  grid-column: 1 / 2;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-right: -10px;
+}
+
+.PopUpform-grid__right {
+  grid-column: 2 / 2;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-left: -200px;
+  margin-right: -280px;
+}
+
+input[type="First Name"] {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 250px;
+  font-weight: bold;
+  margin-top: -70px;
+  margin-bottom: -100px;
+  padding: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+}
+input[type="Last Name"] {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 250px;
+  font-weight: bold;
+  margin-top: -70px;
+  margin-bottom: -50px;
+  padding: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+}
+input[type="PhoneNumber"] {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 250px;
+  font-weight: bold;
+  margin-top: -20px;
+  padding: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+}
+input[type="EmailPopUp"] {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 250px;
+  font-weight: bold;
+  margin-top: -100px;
+  padding: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+button[type="CreateAcc"] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  background-color: #017ca3;
+  margin-top: -10px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  padding: 10px 100px;
+  margin-left: 270px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.CreateAcc button:hover {
+  background-color: #888888;
+}

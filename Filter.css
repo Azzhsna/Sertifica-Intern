@@ -1,0 +1,206 @@
+@media screen and (min-width: 1020px) and (max-width: 1149px) {
+  .Filter button {
+    margin-top: 100px;
+  }
+  .Filter {
+    margin-bottom: 100px;
+  }
+  .show-menu {
+    transform: translateX(0);
+    padding-bottom: 300px;
+  }
+}
+
+@media screen and (min-width: 740px) and (max-width: 839px) {
+  .Filter button {
+    margin-top: 100px;
+  }
+  .Filter {
+    margin-bottom: 300px;
+  }
+  .show-menu {
+    transform: translateX(0);
+    padding-bottom: 300px;
+  }
+}
+
+.Filter {
+  position: fixed;
+  width: 350px;
+  background-color: #0f133a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.show-menu {
+  transform: translateX(0%);
+}
+
+.Filter button {
+  width: 100px;
+  padding: 1px;
+  margin-left: 100px;
+  margin-top: 190px;
+  background-color: #0f133a;
+  border-radius: 20px;
+}
+
+.Filter p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.sidebar-open {
+  transform: translateX(300px);
+}
+
+.Filter.closed {
+  margin-left: ;
+  width: 0px;
+  background-color: transparent;
+}
+
+.Filter {
+  /* display: block; */
+  top: 0;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 1090px;
+}
+
+.FilterMenu {
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: #0f133a;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+}
+
+.FilterMenu p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: -150px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.CheckBoxFilter label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  font-weight: lighter;
+  border-bottom: 2px solid #838383dd;
+  width: 200%;
+}
+
+.CheckBoxFilter input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 40px;
+  border-radius: 10px;
+  border-radius: 20px;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+.CheckBoxFilter input[type="checkbox"]:checked {
+  background-color: #017ca3;
+  border-color: #017ca3;
+}
+
+.show-menu {
+  transform: translateX(0);
+  padding-bottom: 300px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.Role {
+  background-color: #3b3d51;
+  width: 100%;
+  margin-top: -5px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.Sidelogout p {
+  margin-top: 250px;
+  margin-bottom: 20px;
+  margin-left: -90px;
+  text-align: left;
+}
+
+.FilterButton {
+  display: flex;
+}
+
+button[type="SaveFilter"] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 10px 10px;
+  background-color: #017ca3;
+  margin-right: -100px;
+  margin-bottom: -100px;
+  margin-top: 400px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+button[type="ResetFilter"] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 400px;
+  margin-bottom: 100px;
+  margin-left: -150px;
+  padding: 10px 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.ResetFilter button:hover,
+.SaveFilter button:hover {
+  background-color: #dddd;
+}
+
+button.Fclose {
+  color: #fff;
+  background-color: transparent;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  margin-left: 360px;
+  outline: none;
+  text-decoration: none;
+  border: none;
+}

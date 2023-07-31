@@ -1,0 +1,131 @@
+.sideNavContainer {
+  position: fixed;
+  flex: 0 0 5%;
+  background-color: #0f133a;
+  color: #fff;
+  width: 200px;
+  height: 700px;
+  text-decoration: none;
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  padding-bottom: 150px;
+  background-color: #0f133a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: width 0.5s ease-in-out;
+}
+
+.sidebar.closed {
+  width: 50px;
+}
+
+.sidebar.closed .category:hover {
+  pointer-events: none;
+}
+
+.hamburger {
+  display: block;
+  background: none;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.hamburger:hover {
+  background-color: #0f133a;
+}
+
+.menu {
+  margin-bottom: 550px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: #0f133a;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.show-menu {
+  transform: translateX(0);
+}
+
+.Sidedashboard p {
+  margin-bottom: 40px;
+  width: 290%;
+  margin-left: -50px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.Sidepublish p {
+  margin-bottom: 20px;
+  width: 490%;
+  margin-left: -80px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.SideLogout p {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  margin-left: -90px;
+  text-align: left;
+}
+
+.Sidedashboard :hover {
+  background: #017ca3;
+}
+
+.Sidepublish :hover {
+  background: #017ca3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.Role {
+  background-color: #3b3d51;
+  width: 100%;
+  margin-top: -5px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+.Role img {
+  max-height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.Role p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -40px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 80px;
+}

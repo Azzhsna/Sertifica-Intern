@@ -1,0 +1,174 @@
+/* .container {
+  display: flex;
+  background-color: #adc1d8;
+} */
+
+.sans {
+  font-family: Arial;
+}
+
+.Sign {
+  margin-bottom: -100px;
+}
+
+h1 {
+  font-size: 40 px;
+  margin-top: 45px;
+}
+
+h2 {
+  font-size: 27px;
+  margin-bottom: 50px;
+}
+
+/*========== FORM ==========*/
+
+form {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.sans {
+  /* display: flex; */
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 550px;
+  text-align: center;
+}
+
+.Signleft {
+  display: block;
+  flex: 1;
+  /* justify-content: center; */
+  color: #000000;
+  background-color: #adc1d8;
+  padding: 25px;
+}
+
+.Signright {
+  /* display: inline-block; */
+  flex: 1;
+  justify-content: center;
+  background-color: #adc1d8;
+  padding: 25px;
+}
+
+label {
+  /* display: flex; */
+  margin-bottom: 10px;
+  background-color: #adc1d8;
+}
+
+input[type="Name"] {
+  display: flex;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="Company name"] {
+  display: flex;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="Address"] {
+  display: block;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="Email"] {
+  display: block;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="Phone number"] {
+  display: block;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="Job position"] {
+  display: block;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="Post code"] {
+  display: flex;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="file"] {
+  display: flex;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+input[type="button"] {
+  /* display: flex; */
+  width: 35%;
+  padding: 15px;
+  margin-bottom: 5px;
+  margin-left: 450px;
+  border-radius: 5px;
+  background-color: #0f133a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/*========== BUTTON ==========*/
+
+button {
+  background: #0f133a;
+  color: white;
+  border: none;
+  width: 28%;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 500px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: #017ca3;
+}
+
+.error-message {
+  display: none;
+  color: red;
+}
+
+.Resend a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  display: auto;
+  align-items: center;
+  color: #0f133a;
+  text-decoration: none;
+}
+
+input[type="email"]:invalid + .error-message {
+  display: block;
+}
